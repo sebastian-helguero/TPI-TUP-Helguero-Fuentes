@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://img.freepik.com/premium-vector/pizza-menu-chalkboard-cartoon-background-with-fresh-ingredients-illustration-pizzeria-flyer-background-two-horizontal-banners-with-ingredients-text-wooden-background-blackboard_257455-136.jpg?w=900);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+main{
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.title{
+  font-size: 50px;
+  color: orange;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  min-width: 650px;
+  text-shadow:-1px 0 coral, 0 1px coral, 1px 0 coral , 0 -1px coral,0px 0px 8px orangered, 1px 1px 30px black, 1px 1px 20px black, 1px 1px 30px black , 1px 1px 30px black, 1px 1px 30px black;
+}
+
+.grid{
+  display: flex;
+  gap: 15px;
+  flex-flow: row wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+div.products{
+  width: 90%;
+  display: flex;
+  justify-content:end;
+}
+
+main{
+  display:flex;
+  background: #cec6c6;
+  width: 95%;
+  min-width: 600px;
+}
+
+aside{
+  top: 50px;
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section h2 {
+  color: sienna;
+  text-shadow: 6px 1px 6px black,-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  display: flex;
+  align-items: baseline;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 75px;
+  margin-top: 40px;
+}
